@@ -1,471 +1,185 @@
-<!DOCTYPE HTML>
-<!--
-	Paradigm Shift by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Paradigm Shift by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!--定时器-->
+    <script>
+        function init(){
+            //书写轮播图片的定时功能
+            setInterval("changeImg()",3000);
+        }
+        //书写函数
+        var i=0;
+        function changeImg(){
+            i++;
+            //获取图片位置并设置src属性值
+            document.getElementById("img1").src=i+".jpg";
+            if(i==5){
+                i=0;
+            }
+        }
+    </script>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+</head>
 
-				<!-- Intro -->
-					<section class="intro">
-						<header>
-							<h1>Paradigm Shift</h1>
-							<p>A free responsive site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> / <a href="https://html5up.net">HTML5 UP</a></p>
-							<ul class="actions">
-								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
-							</ul>
-						</header>
-						<div class="content">
-							<span class="image fill" data-position="center"><img src="images/pic01.jpg" alt="" /></span>
-						</div>
-					</section>
+<!--标题栏-->
+<body onload="init()">
+    <table width="1200px" align="center" cellpadding="0px" cellspacing="0px">
+        <tr>
+            <td>
+                <table border="0px" width="1400px">
+                    <tr height="50px">
+                        <td width="100%" align="center">
+                            <a href="#" > <font color="black" size="7" face="comic sans ms" ><strong>BLUEHEART</strong></font></a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 
-				<!-- Section -->
-					<section id="first">
-						<header>
-							<h2>Magna sed nullam nisl adipiscing</h2>
-						</header>
-						<div class="content">
-							<p><strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
-							<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-						</div>
-					</section>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Feugiat consequat tempus ultrices</h2>
-						</header>
-						<div class="content">
-							<p><strong>Etiam tristique libero</strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.</p>
-							<ul class="feature-icons">
-								<li class="icon solid fa-laptop">Consequat tempus</li>
-								<li class="icon solid fa-bolt">Etiam adipiscing</li>
-								<li class="icon solid fa-signal">Libero nullam</li>
-								<li class="icon solid fa-cog">Blandit condimentum</li>
-								<li class="icon solid fa-map-marker-alt">Lorem ipsum dolor</li>
-								<li class="icon solid fa-code">Nibh amet venenatis</li>
-							</ul>
-							<p>Vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
-						</div>
-					</section>
+    <table width="1200px" align="center"  cellpadding="2px" cellspacing="2px">
+        <tr height="35" >
+            <td width="100%" align="center" >
+                <a href="#"><font face="comic sans ms" face="4">Home</font></a>
+                <a href="#"><font face="comic sans ms" face="4">About Me</font></a>
+                <a href="#"><font face="comic sans ms" face="4">My Life</font></a>
+                <a href="#"><font face="comic sans ms" face="4">My Hobby</font></a>
+                <a href="#"><font face="comic sans ms" face="4">My work</font></a>
+            </td>
+        </tr>
+        <!--轮播图-->
+        <tr>
+            <td>
+                <img src="1.jpg" width="100%"  id="img1"/>
+            </td>
+        </tr>
+    </table><br /><br />
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Ultrices erat magna sed condimentum</h2>
-						</header>
-						<div class="content">
-							<p><strong>Integer mollis egestas</strong> nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
+    <!--home段-->
+    <table width="1400px" cellspacing="2px" cellpadding="2px" align="center">
+        <tr><th><font face="comic sans ms" size="6"><strong>HOME</strong></font></th></tr><br /><br />
+        <tr>
+            <td align="center">
+                <p align="center" ><font size="3" face="楷体">“小小的举动，会带来远大的效应”是林俊杰藏在心中多年的一个概念，但也因着还不能完美地呈现而一直搁置。过去的这些日子，林俊杰在体会了来自他身旁人生的体悟与深刻情感后，思想在他的内心渐渐地产生了变化，他深刻地以珍贵的情感与瞬间融入到创作的生命力，也以“真实”为驱动写下了这首歌曲，记录着他内心赤裸的撼动，也献给每一个身边重视的人们。</font></p>
+                <br /><br />
+                <img src="C.png"/><br /><br />
+            </td>
+        </tr>
+    </table>
 
-							<!-- Section -->
-								<section>
-									<header>
-										<h3>Erat aliquam</h3>
-										<p>Vehicula ultrices dolor amet ultricies et condimentum. Magna sed etiam consequat, et lorem adipiscing sed dolor sit amet, consectetur amet do eiusmod tempor incididunt  ipsum suspendisse ultrices gravida.</p>
-									</header>
-									<div class="content">
-										<div class="gallery">
-											<a href="images/gallery/fulls/01.jpg" class="landscape"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/02.jpg"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/03.jpg"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/04.jpg" class="landscape"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
-										</div>
-									</div>
-								</section>
+    <!--做一个两行三列的表格-->
+    <table width="1400px" cellpadding="2px" cellspacing="2px" align="center">
+        <tr align="center">
+            <td width="450px" height="500px">
+                <img src="4.png" />
+                <font size="3" face="微软雅黑" ><strong>伟大的渺小</strong></font><br />
+                <font size="2" color="gray">一朵玫瑰被刺围绕，也许它也渴望拥抱</font>
+            </td>
+            <td>
+                <img src="5.png" />
+                <font size="3" face="微软雅黑" ><strong>伟大的渺小</strong></font><br />
+                <font size="2" color="gray">一朵玫瑰被刺围绕，也许它也渴望拥抱</font>
+            </td>
+            <td>
+                <img src="6.png" />
+                <font size="3" face="微软雅黑" ><strong>伟大的渺小</strong></font><br />
+                <font size="2" color="gray">一朵玫瑰被刺围绕，也许它也渴望拥抱</font>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>
+                <img src="1.png" />
+                <font size="3" face="微软雅黑" ><strong>伟大的渺小</strong></font><br />
+                <font size="2" color="gray">一朵玫瑰被刺围绕，也许它也渴望拥抱</font>
+            </td>
+            <td>
+                <img src="2.png" />
+                <font size="3" face="微软雅黑" ><strong>伟大的渺小</strong></font><br />
+                <font size="2" color="gray">一朵玫瑰被刺围绕，也许它也渴望拥抱</font>
+            </td>
+            <td>
+                <img src="3.png" />
+                <font size="3" face="微软雅黑" ><strong>伟大的渺小</strong></font><br />
+                <font size="2" color="gray">一朵玫瑰被刺围绕，也许它也渴望拥抱</font>
+            </td>
+        </tr>
+    </table><br /><br />
 
-							<!-- Section -->
-								<section>
-									<header>
-										<h3>Nisl consequat</h3>
-										<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam sed facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet mauris. Ut magna finibus nisi nec lacinia ipsum maximus.</p>
-									</header>
-									<div class="content">
-										<div class="gallery">
-											<a href="images/gallery/fulls/05.jpg" class="landscape"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/06.jpg"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/07.jpg"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
-										</div>
-									</div>
-								</section>
+    <!--About Me段-->
+    <table width="1400px" cellspacing="2px" cellpadding="2px" align="center">
+        <tr align="center">
+            <td>
+                <font face="comic sans ms" size="6"><strong>About Me</strong></font><br />
+            </td>
+        </tr>
+    </table>
 
-							<!-- Section -->
-								<section>
-									<header>
-										<h3>Lorem gravida</h3>
-										<p>Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aenean ornare velit lacus, ac varius sed enim lorem ullamcorper dolore.  ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis.</p>
-									</header>
-									<div class="content">
-										<div class="gallery">
-											<a href="images/gallery/fulls/08.jpg" class="portrait"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/09.jpg" class="portrait"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/10.jpg" class="landscape"><img src="images/gallery/thumbs/10.jpg" alt="" /></a>
-										</div>
-									</div>
-								</section>
+    <table width="1400px" cellspacing="2px" cellpadding="6px" align="center">
+        <tr>
+            <td align="center">
+                <p align="center" ><font size="3" face="楷体">这首歌也与新加坡作词人小寒首度合作，在没有给予任何想法下，小寒一听到这首旋律，自然而然产生强烈的共鸣与感动，来自对生命与灵魂的感受，赋予了这首歌珍贵呼应的歌词。[4]  而这首歌更与知名配唱制作人马毓芬老师一同录制，她与林俊杰针对这首歌所想表达的情绪深入畅聊，如何随着这首歌的旋律铺陈，以及在录制的情感表现，例如试着让林俊杰在第一次副歌用假音表现他原本可以轻松用真音唱上去的旋律，在听觉上让前半部听起来较为柔和，并针对最后一次副歌特别编写和声，传达一种磅礴而震撼的感觉，让后半部更显张力与希望。</font></p>
+            </td>
+            <td align="center">
+                <p align="center" ><font size="3" face="楷体">这首歌也与新加坡作词人小寒首度合作，在没有给予任何想法下，小寒一听到这首旋律，自然而然产生强烈的共鸣与感动，来自对生命与灵魂的感受，赋予了这首歌珍贵呼应的歌词。[4]  而这首歌更与知名配唱制作人马毓芬老师一同录制，她与林俊杰针对这首歌所想表达的情绪深入畅聊，如何随着这首歌的旋律铺陈，以及在录制的情感表现，例如试着让林俊杰在第一次副歌用假音表现他原本可以轻松用真音唱上去的旋律，在听觉上让前半部听起来较为柔和，并针对最后一次副歌特别编写和声，传达一种磅礴而震撼的感觉，让后半部更显张力与希望。</font></p>
+            </td>
+        </tr>
+    </table>
 
-						</div>
-					</section>
+    <table width="1000px" cellpadding="2px" cellspacing="2px" align="center">
+        <tr>
+            <td>
+                <p align="center" ><font size="5" face="楷体"><strong>试着让林俊杰在第一次副歌用假音表现他原本可以轻松用真音唱上去的旋律，在听觉上让前半部听起来较为柔和，并针对最后一次副歌特别编写和声，传达一种磅礴而震撼的感觉，让后半部更显张力与希望。</strong></font></p>
+            </td>
+        </tr>
+    </table><br />
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Duis sed adpiscing veroeros amet</h2>
-						</header>
-						<div class="content">
-							<p><strong>Proin tempus feugiat</strong> sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.</p>
-							<ul class="actions">
-								<li><a href="#" class="button primary large">Get Started</a></li>
-								<li><a href="#" class="button large">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
+    <table width="1400px" cellpadding="0px" cellspacing="0px" align="center">
+        <tr>
+            <td>
+                <img src="121.jpg" width="700px" height="700px" align="center"/>
+            </td>
+            <td>
 
-				<!-- Elements -->
-				<!--
-					<section>
-						<header>
-							<h2>Elements</h2>
-						</header>
-						<div class="content">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!--等着，我回来再写-->
+            </td>
+            <td>
+                <img src="9.jpg" width="700px" height="700px" align="center"/>
+            </td>               
+        </tr>       
+    </table><br /><br />
 
-							<section>
-								<header>
-									<h3>Text</h3>
-								</header>
-								<div class="content">
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<hr />
-									<h5>Blockquote</h5>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h5>Preformatted</h5>
-									<pre><code>i = 0;
+    <!--My life段-->
+    <table width="1400px" cellspacing="2px" cellpadding="2px" align="center">
+        <tr align="center">
+            <td>
+                <font face="comic sans ms" size="6"><strong>My life</strong></font><br />
+            </td>
+        </tr>
+    </table>
 
-while (!deck.isInOrder()) {
-  print 'Iteration ' + i;
-  deck.shuffle();
-  i++;
-}
+    <table width="1400px" cellspacing="2px" cellpadding="2px" align="center">
+        <tr>
+            <td align="center">
+                <p align="center" ><font size="3" face="楷体">这首歌也与新加坡作词人小寒首度合作，在没有给予任何想法下，小寒一听到这首旋律，自然而然产生强烈的共鸣与感动，来自对生命与灵魂的感受，赋予了这首歌珍贵呼应的歌词。[4]  而这首歌更与知名配唱制作人马毓芬老师一同录制，她与林俊杰针对这首歌所想表达的情绪深入畅聊，如何随着这首歌的旋律铺陈，以及在录制的情感表现，例如试着让林俊杰在第一次副歌用假音表现他原本可以轻松用真音唱上去的旋律，在听觉上让前半部听起来较为柔和，并针对最后一次副歌特别编写和声，传达一种磅礴而震撼的感觉，让后半部更显张力与希望。</font></p>
+            </td>
+        </tr>
+    </table>
+    <table width="700px" cellspacing="2px" cellpadding="2px" align="center">
+        <tr>
+            <td align="center">
 
-print 'Sorted in ' + i + ' iterations.';</code></pre>
-								</div>
-							</section>
-
-							<section>
-								<header>
-									<h3>Lists</h3>
-								</header>
-								<div class="content">
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-							</section>
-
-							<section>
-								<header>
-									<h3>Table</h3>
-								</header>
-								<div class="content">
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</div>
-							</section>
-
-							<section>
-								<header>
-									<h3>Buttons</h3>
-								</header>
-								<div class="content">
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button large">Large</a></li>
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</div>
-							</section>
-
-							<section>
-								<header>
-									<h3>Form</h3>
-								</header>
-								<div class="content">
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</div>
-							</section>
-
-						</div>
-					</section>
-				-->
-
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Get in touch</h2>
-						</header>
-						<div class="content">
-							<p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>
-							<form>
-								<div class="fields">
-									<div class="field half">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Email" />
-									</div>
-									<div class="field">
-										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="button primary" /></li>
-								</ul>
-							</form>
-						</div>
-						<footer>
-							<ul class="items">
-								<li>
-									<h3>Email</h3>
-									<a href="#">information@untitled.ext</a>
-								</li>
-								<li>
-									<h3>Phone</h3>
-									<a href="#">(000) 000-0000</a>
-								</li>
-								<li>
-									<h3>Address</h3>
-									<span>1234 Somewhere Road, Nashville, TN 00000</span>
-								</li>
-								<li>
-									<h3>Elsewhere</h3>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="#" class="icon brands fa-codepen"><span class="label">Codepen</span></a></li>
-									</ul>
-								</li>
-							</ul>
-						</footer>
-					</section>
-
-				<!-- Copyright -->
-					<div class="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+            </td>
+        </tr>
+    </table>
+    <table width="1400px"  height="300px" bgcolor="black" cellpadding="6px" align="center">
+        <tr>
+            <td align="center">
+                <p align="center" ><font size="7" face="comic sans ms" color="white">BLUEHEART</font></p><br /><br /><br />
+                <p align="center" ><font size="4" face="comic sans ms" color="white">Hope my CET4 能过！！</font></p>
+                <p align="center" ><font color="white">Copyright © 2017 个人网站. All rights reserved.</font></p>
+            </td>
+        </tr>
+    </table>
+</body>
